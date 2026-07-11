@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+}
+
+
+header{ background:#ec1818;  padding:15px 40px; }
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:rgb(27, 22, 22);
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f0c2de;
+}
+
+section{
+    width: 700px;;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+#inicio{
+    width: 800px;;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+.hero{
+    text-align:center;
+}
+
+.foto{
+    width:200px;
+    height:200px;
+    border-radius:60%;
+    object-fit:cover;
+    border:8px solid #868a86;
+}
+
+h1{   color: rgb(241, 8, 8);   font-size:40px; }
+
+h2{
+    color:#010314; font-weight:bold; font-size:28px; 
+    border-bottom:2px solid #e71111;
+    padding-bottom:8px;
+}
+
+h3{
+    color:#f70e0e;
+}
+
+ul{
+    line-height:1.8;
+}
+
+article{
+    margin-bottom:25px;
+}
+
+.boton{
+    display:inline-block;
+    background:#f0e9e9;
+    color:rgb(241, 16, 16);
+    padding:12px 25px;
+    margin-top:15px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.boton:hover{
+    background:#e40d0d;
+}
+
+.acerca-de{
+    margin: 40px auto;
+    padding: 20px;
+    border-left: 4px solid rgb(226, 49, 5);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.acerca-de h2{
+    color: rgb(233, 7, 7);
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.acerca-de p{
+    font-size: 16px;
+    color: #222;
+    text-align: justify;
+}
+
+
+.lista-publicaciones {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.lista-publicaciones li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 5px dashed #ccc;
+    line-height: 1.6;
+}
+
+.lista-publicaciones li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.lista-publicaciones li:first-child {
+    border-bottom: 5px dashed #d11717;
+    margin-bottom: 0;
+}
+
+.lista-publicaciones strong {
+    font-size: 18px;
+    color: #222;
+}
+
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
