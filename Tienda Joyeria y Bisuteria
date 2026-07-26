@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyería Valencia</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header>
+    <h1>Joyería Valencia</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="novedades.html">Novedades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner">
+    <img src="img/logo.jpg" alt="Banner Joyería Valencia">
+</section>
+
+<section class="bienvenida">
+    <h2>Bienvenidos a Joyería Valencia</h2>
+    <p>
+        Descubre una colección exclusiva de joyas y bisutería para toda ocasión.
+        Ofrecemos anillos, collares, pulseras, aretes y relojes con diseños
+        elegantes y modernos para realzar tu estilo.
+    </p>
+</section>
+
+<section class="productos">
+    <h2>Productos Destacados</h2>
+
+    <div class="product-grid">
+
+        <div class="product">
+            <h3>Anillo Ela</h3>
+            <img src="img/Anillo.jpg" alt="Anillo">
+            <p>$200.00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="product">
+             <h3>Collar Magico</h3>
+            <img src="img/collar.jpg" alt="Collar">
+            <p>$150.00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="product">
+            <h3>Pulsera Ariana</h3>
+            <img src="img/pulsera.jpg" alt="Pulsera">          
+            <p>$40.00</p>
+            <button>Comprar</button>
+        </div>
+
+         <div class="product">
+            <h3>Reloj de Perlas</h3>
+            <img src="img/reloj.jpg" alt="reloj">          
+            <p>$55.00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="product">
+             <h3>Dije Flor Nola</h3>
+            <img src="img/dije.jpg" alt="dije">
+            <p>$60.00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="product">
+            <h3>Aretes Alba</h3>
+            <img src="img/aretes.jpg" alt="Aretes">          
+            <p>$130.00</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Joyería Valencia | Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
